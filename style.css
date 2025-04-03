@@ -1,0 +1,122 @@
+/* Apply a modern dark-themed background */
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main container styling */
+.container {
+    background: #1e1e1e;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Header styling */
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Password display box */
+.password-box {
+    background: #2c2c2c;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00ffcc;
+    word-break: break-all;
+    margin-bottom: 15px;
+}
+
+/* Label styles */
+.label-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+/* Range input */
+input[type="range"] {
+    width: 100%;
+    cursor: pointer;
+    accent-color: #00ffcc;
+}
+
+/* Checkbox styles */
+.checkbox-group {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.checkbox-group label {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 5px;
+    accent-color: #00ffcc;
+}
+
+/* Generate Password Button */
+button {
+    background: linear-gradient(45deg, #00ffcc, #008080);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+    width: 100%;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #008080, #00ffcc);
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Password History */
+h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    border-bottom: 2px solid #00ffcc;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+ul li {
+    background: #2c2c2c;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 14px;
+    word-break: break-all;
+}
